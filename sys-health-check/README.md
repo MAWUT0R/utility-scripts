@@ -10,35 +10,35 @@ To execute the script, you will need:
 ## Execution
 To execute the script, you may follow the steps below:
 
-## Step 0
+#### Step 0
 Open your terminal window and install the `psutil` python module:
 ```
 pip3 install psutil
 ```
 `psutil` does not come with the Standard Python Library, thus requires a seperate install.
 
-### Step 1
+#### Step 1
 Next, in your preferred directory, clone the `utility-scripts` repository:
 ```
 git clone https://github.com/MAWUT0R/utility-scripts.git
 ```
 By doing this, the whole repository including this script is made available locally on your machine.
 
-### Step 2
+#### Step 2
 Change directory into `sys-health-check`:
 ```
 cd utility-scripts/sys-health-check/
 ```
 Changing directory makes it for easy execution.
 
-### Step 3
+#### Step 3
 Make `health_check.py` executable:
 ```
 chmod +x health_check.py
 ```
 `chmod` is a system command that tells the system to change the access permissions of file objects. Here, we tell the system to that we want to execute the script without a preceding command.
 
-### Step 4
+#### Step 4
 Finally, run the script:
 ```
 ./health_check.py
@@ -51,4 +51,4 @@ Average CPU usage in the last 1s is 0.5%
 ```
 
 ## Conclusion
-Congratulations! At this point you can modify the code to suit your needs. You can continue to learn about more methods you can use on (shutil)[https://docs.python.org/3/library/shutil.html] and (psutil)[https://pypi.org/project/psutil/].
+Congratulations! At this point you can modify the code to suit your needs. You can continue to learn about more methods you can use on [shutil](https://docs.python.org/3/library/shutil.html) and [psutil](https://pypi.org/project/psutil/).
