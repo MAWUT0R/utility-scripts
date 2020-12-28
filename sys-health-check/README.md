@@ -10,8 +10,15 @@ To execute the script, you will need:
 ## Execution
 To execute the script, you may follow the steps below:
 
+## Step 0
+Open your terminal window and install the `psutil` python module:
+```
+pip3 install psutil
+```
+`psutil` does not come with the Standard Python Library, thus requires a seperate install.
+
 ### Step 1
-In your terminal window, clone the `utility-scripts` repository:
+Next, in your preferred directory, clone the `utility-scripts` repository:
 ```
 git clone https://github.com/MAWUT0R/utility-scripts.git
 ```
@@ -32,12 +39,16 @@ chmod +x health_check.py
 `chmod` is a system command that tells the system to change the access permissions of file objects. Here, we tell the system to that we want to execute the script without a preceding command.
 
 ### Step 4
-Run the script:
+Finally, run the script:
 ```
 ./health_check.py
 ```
 Your output should look similar to this:
 ```
+Disk usage summary:
+Total(9.00 GB), Used(7.51 GB), Free(1.49 GB), %Used(83.40)
+Average CPU usage in the last 1s is 0.5%
 ```
 
 ## Conclusion
+Congratulations! At this point you can modify the code to suit your needs. You can continue to learn about more methods you can use on (shutil)[https://docs.python.org/3/library/shutil.html] and (psutil)[https://pypi.org/project/psutil/].
